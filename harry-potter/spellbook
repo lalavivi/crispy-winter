@@ -220,10 +220,10 @@ spells = [
         "opis": "Świeci bardzo jasnym światłem z końca różdżki. To bardziej intensywna wersja zaklęcia Lumos.",
         "poziom_trudnosci": "Średni",
     }
-    # Możesz dodać więcej zaklęć w podobny sposób
+    
 ]
 
-# Przykład wyświetlania listy zaklęć
+# wyświetlanie listy zaklęć
 for spell in spells:
     print("Zaklęcie: " + spell["nazwa"])
     print("Opis: " + spell["opis"])

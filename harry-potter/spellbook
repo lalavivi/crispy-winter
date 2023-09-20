@@ -1,1 +1,231 @@
+# Definiowanie listy zaklęć
+spells = [
+    {
+        "nazwa": "Expecto Patronum",
+        "opis": "Wzywa Patronusa, ducha ochronnego, aby odpędzić Dementorów i inne ciemne istoty.",
+        "poziom_trudnosci": "Średni",
+    },
+    {
+        "nazwa": "Alohomora",
+        "opis": "Otwiera zamki i drzwi, niezależnie od tego, czy są zabezpieczone zaklęciami.",
+        "poziom_trudnosci": "Łatwy",
+    },
+    {
+        "nazwa": "Expelliarmus",
+        "opis": "Odbiera przeciwnikowi różdżkę lub inny przedmiot w ręku.",
+        "poziom_trudnosci": "Średni",
+    },
+    {
+        "nazwa": "Lumos",
+        "opis": "Światło z końca różdżki. Używane głównie do oświetlania ciemnych miejsc.",
+        "poziom_trudnosci": "Łatwy",
+    },
+    {
+        "nazwa": "Nox",
+        "opis": "Gaszenie światła wywołanego zaklęciem Lumos.",
+        "poziom_trudnosci": "Łatwy",
+    },
+    {
+        "nazwa": "Reparo",
+        "opis": "Naprawia uszkodzone przedmioty.",
+        "poziom_trudnosci": "Łatwy",
+    },
+    {
+        "nazwa": "Alohomora",
+        "opis": "Otwiera zamki i drzwi, niezależnie od tego, czy są zabezpieczone zaklęciami.",
+        "poziom_trudnosci": "Łatwy",
+    },
+    {
+        "nazwa": "Avada Kedavra",
+        "opis": "Zaklęcie śmierci, które natychmiastowo zabija cel.",
+        "poziom_trudnosci": "Bardzo Trudny",
+    },
+    {
+        "nazwa": "Crucio",
+        "opis": "Zaklęcie torturujące, które powoduje ogromny ból u ofiary.",
+        "poziom_trudnosci": "Bardzo trudny",
+    },
+    {
+        "nazwa": "Imperio",
+        "opis": "Zaklęcie kontrolujące, które umożliwia rzucającemu kontrolę nad umysłem ofiary.",
+        "poziom_trudnosci": "Bardzo trudny",
+    },
+    {
+        "nazwa": "Accio",
+        "opis": "Zaklęcie przywoływania, które przyciąga obiekt do rzucającego.",
+        "poziom_trudnosci": "Łatwy",
+    },
+    {
+        "nazwa": "Wingardium Leviosa",
+        "opis": "Podnosi obiekt w powietrze i utrzymuje go tam.",
+        "poziom_trudnosci": "Łatwy",
+    },
+    {
+        "nazwa": "Riddikulus",
+        "opis": "Zaklęcie używane przeciwko Boginom, aby przekształcić je w coś śmiesznego i niegroźnego.",
+        "poziom_trudnosci": "Średni",
+    },
+    {
+        "nazwa": "Protego",
+        "opis": "Tworzy ochronną barierę przed zaklęciami i atakami.",
+        "poziom_trudnosci": "Łstwy",
+    },
+    {
+        "nazwa": "Reducto",
+        "opis": "Powoduje eksplozję, roztrzaskując obiekty.",
+        "poziom_trudnosci": "Średni",
+    },
+    {
+        "nazwa": "Petrificus Totalus",
+        "opis": "Uniemożliwia ruch i działanie ofierze, powodując jej sztywność.",
+        "poziom_trudnosci": "Średni",
+    },
+    {
+        "nazwa": "Episkey",
+        "opis": "Leczy drobne obrażenia, takie jak siniaki i zadrapania.",
+        "poziom_trudnosci": "Łatwy",
+    },
+    {
+        "nazwa": "Aguamenti",
+        "opis": "Tworzy strumień wody z różdżki.",
+        "poziom_trudnosci": "Łatwy",
+    },
+    {
+        "nazwa": "Bombarda",
+        "opis": "Odbiera przeciwnikowi różdżkę lub inny przedmiot w ręku.",
+        "poziom_trudnosci": "Średni",
+    },
+    {
+        "nazwa": "Stupefy",
+        "opis": "Usypia lub ogłusza przeciwnika",
+        "poziom_trudnosci": "Średni",
+    },
+    {
+        "nazwa": "Engorgio",
+        "opis": "Powoduje obrzmienie lub zwiększenie rozmiaru obiektu.",
+        "poziom_trudnosci": "Średni",
+    },
+    {
+        "nazwa": "Confundo",
+        "opis": "Powoduje dezorientację lub zamieszanie u celu, utrudniając mu podjęcie właściwej decyzji.",
+        "poziom_trudnosci": "Średni",
+    },
+    {
+        "nazwa": "Finite Incantatem",
+        "opis": "Kończy działanie wcześniej rzuconych zaklęć.",
+        "poziom_trudnosci": "Średni",
+    },
+    {
+        "nazwa": "Sectumsempra",
+        "opis": "Powoduje głębokie rany u przeciwnika, cięcie jak mieczem.",
+        "poziom_trudnosci": "Bardzo trudny",
+    },
+    {
+        "nazwa": "Levicorpus",
+        "opis": "Podnosi przeciwnika do góry za nogi, zawieszając go w powietrzu.",
+        "poziom_trudnosci": "Średni",
+    },
+    {
+        "nazwa": "Silencio",
+        "opis": "Ucisza dźwięk wokół celu, powodując chwilową niemowę.",
+        "poziom_trudnosci": "Średni",
+    },
+    {
+        "nazwa": "Protego Totalum",
+        "opis": "Tworzy ochronną barierę wokół miejsca lub obszaru.",
+        "poziom_trudnosci": "Średni",
+    },
+    {
+        "nazwa": "Descendo",
+        "opis": "Opuszcza obiekt w dół.",
+        "poziom_trudnosci": "Średni",
+    },
+    {
+        "nazwa": "Muffliato",
+        "opis": "Tworzy barierę dźwiękową wokół rozmawiających, aby ich rozmowy nie były słyszalne przez innych.",
+        "poziom_trudnosci": "Średni",
+    },
+    {
+        "nazwa": "Impedimenta",
+        "opis": "Hamuje lub opóźnia ruch przeciwnika.",
+        "poziom_trudnosci": "Średni",
+    },
+    {
+        "nazwa": "Reducio",
+        "opis": "Pomniejsza lub zmniejsza rozmiar obiektu.",
+        "poziom_trudnosci": "Łatwy",
+    },
+    {
+        "nazwa": "Evanesco",
+        "opis": "Powoduje zniknięcie lub rozpuszczenie obiektu.",
+        "poziom_trudnosci": "Średni",
+    },
+    {
+        "nazwa": "Legilimens",
+        "opis": "Pozwala rzucającemu zaglądać do umysłu innej osoby, aby przeczytać jej myśli.",
+        "poziom_trudnosci": "Trudny",
+    },
+    {
+        "nazwa": "Expulso",
+        "opis": "Powoduje eksplozję.",
+        "poziom_trudnosci": "Średni",
+    },
+    {
+        "nazwa": "Lumos Solem",
+        "opis": "Świeci bardzo jasnym słońcem.",
+        "poziom_trudnosci": "Średni",
+    },
+    {
+        "nazwa": "Deletrius",
+        "opis": "Usuwa lub czyści ślady magiczne.",
+        "poziom_trudnosci": "Średni",
+    },
+    {
+        "nazwa": "Anapneo",
+        "opis": "Odblokowuje drogi oddechowe, zwalniając osobę od duszenia się.",
+        "poziom_trudnosci": "Średni",
+    },
+    {
+        "nazwa": "Serpensortia",
+        "opis": "Wywołuje Węża",
+        "poziom_trudnosci": "Średni",
+    },
+    {
+        "nazwa": "Brackium Emendo",
+        "opis": "Naprawia złamane kości.",
+        "poziom_trudnosci": "Średni",
+    },
+    {
+        "nazwa": "Periculum",
+        "opis": "Wywołuje efekt pirotechniczny, często w kształcie wybuchających błyskawic.",
+        "poziom_trudnosci": "Średni",
+    },
+    {
+        "nazwa": "Aparecium",
+        "opis": "Odkrywa ukryte lub niewidoczne przedmioty.",
+        "poziom_trudnosci": "Łatwy",
+    },
+    {
+        "nazwa": "Incendio",
+        "opis": "Odbiera przeciwnikowi różdżkę lub inny przedmiot w ręku.",
+        "poziom_trudnosci": "Średni",
+    },
+    {
+        "nazwa": "Obliviate",
+        "opis": "Usuwa lub wymazuje pamięć danej osoby, aby zapomniana była pewna informacja lub wydarzenie.",
+        "poziom_trudnosci": "Średni",
+    },
+    {
+        "nazwa": "Lumos Maxima",
+        "opis": "Świeci bardzo jasnym światłem z końca różdżki. To bardziej intensywna wersja zaklęcia Lumos.",
+        "poziom_trudnosci": "Średni",
+    }
+    # Możesz dodać więcej zaklęć w podobny sposób
+]
 
+# Przykład wyświetlania listy zaklęć
+for spell in spells:
+    print("Zaklęcie: " + spell["nazwa"])
+    print("Opis: " + spell["opis"])
+    print("Poziom trudności: " + spell["poziom_trudnosci"])
+    print()
